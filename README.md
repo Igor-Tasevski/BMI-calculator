@@ -1,1 +1,2 @@
-#Body Mass Calculator#
+##Body Mass Calculator
+### Technologies used - HTML, CSS & Jquery
