@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Creating BMI calculator with jquery">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BMI Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <script src="JQuery.js"></script>
+</head>
+
+
+<body>
+
+    <section class="container">
+        <h1 class="BMI Calculator">Calculate your current body mass index</h1>
+
+
+        <div class="image-container">
+            <div id="hero">
+                <div class="current"><img src="./images_man/Man 1.png"> </div>
+                <div><img src="./images_women/woman 1.png"></div>
+                <div><img src="./images_man/Man 2.png"></div>
+                <div><img src="./images_women/woman 2.png"></div>
+                <div><img src="./images_man/Man 3.png"></div>
+                <div><img src="./images_women/woman 3.png"></div>
+                <div><img src="./images_man/Man 4.png"></div>
+                <div><img src="./images_women/woman 4.png"></div>
+            </diV>
+        </div>
+
+        <div class="info">
+            Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and
+            women.
+            <ul>
+                <li>Enter your weight. Example ->75kg </li>
+                <li>Enter your Height. Example ->1.86 </li>
+                <li>Click calculate</li>
+            </ul>
+        </div>
+
+
+
+
+
+        <form action="#" method="post" class="box">
+
+
+
+
+
+
+
+
+            <div class="col-25">
+                <label for="weight"><span>Weight:</span> </label>
+            </div>
+
+
+            <div class="col-75">
+                <input type="text" id="weight" value="">
+            </div>
+
+
+
+
+            <div class="col-25">
+                <label for="height"><span>Height: </span></label>
+
+            </div>
+
+            <div class="col-75">
+                <input type="text" id="height">
+
+            </div>
+
+            <br>
+            <input type="submit" class="button_calculate" value="Calculate">
+        </form>
+
+
+
+
+        <div class="result">
+            <h2 class="title"></h2>
+            <h3 class="title1"></h3>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+
+
+</html>

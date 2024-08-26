@@ -1,0 +1,108 @@
+
+.container{
+	width: 800px;
+    height: 1500px;
+    background-color: rgb(209, 223, 186);
+    margin:auto;
+    border-radius: 12px;
+    
+    
+   
+}
+
+
+.images-container img {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* простор меѓу сликите */
+    }
+
+
+    
+
+ul li{
+	list-style:circle;
+	margin-left:30px;
+	margin-top:10px;
+    color: white;
+}
+
+.result{
+	margin:40px 0;
+}
+
+.result .title{
+	text-align:center;
+    color:orange;
+}
+
+.info{
+background-color: rgb(105, 146, 199);
+font-style: normal;
+color: white;
+
+margin-top: 12px;;
+
+}
+
+
+.button_calculate{
+
+    margin-left: 12px;
+}
+
+
+.col-25 {
+   
+        float: left;
+        width: 15%;
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+         
+      
+
+}
+
+
+.col-75 {
+    
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+       
+        
+   
+    
+  }
+
+
+  div img {
+
+    width:200px;
+    height:350px;
+
+  padding-left: 280px;
+  display:block;
+  margin-top: -5px;
+  } 
+
+  #hero {
+    height:350px;
+    width:760px;
+  }
+
+#hero div {
+    position: absolute;
+    z-index: 0;
+}
+#hero div.previous {
+    z-index: 1;
+}
+#hero div.current {
+    z-index: 2;
+    
+}  
